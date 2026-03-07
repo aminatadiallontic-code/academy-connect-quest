@@ -172,7 +172,6 @@ const Dashboard = () => {
 
           {/* Quick actions */}
           <div className="mb-6 sm:mb-8 flex flex-col sm:flex-row gap-3">
-          <div className="mb-6 sm:mb-8 flex flex-col sm:flex-row gap-3">
             <Link to="/qrcode" className="flex-1">
               <Button variant="outline" className="w-full gap-2">
                 <QrCode className="h-4 w-4" /> Mon QR Code
