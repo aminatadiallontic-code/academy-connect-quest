@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
   GraduationCap, User, FileText, Bell, LogOut, ChevronRight,
-  CheckCircle2, Clock, AlertCircle, Plus, Download, X
+  CheckCircle2, Clock, AlertCircle, Plus, Download, X, QrCode
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
@@ -172,13 +172,18 @@ const Dashboard = () => {
 
           {/* Quick actions */}
           <div className="mb-6 sm:mb-8 flex flex-col sm:flex-row gap-3">
+            <Link to="/qrcode" className="flex-1">
+              <Button variant="outline" className="w-full gap-2">
+                <QrCode className="h-4 w-4" /> Mon QR Code
+              </Button>
+            </Link>
             <Link to="/admin" className="flex-1">
               <Button variant="outline" className="w-full gap-2">
                 <User className="h-4 w-4" /> Espace administrateur
               </Button>
             </Link>
             <Button variant="outline" className="flex-1 gap-2" onClick={handleExportPdf}>
-              <Download className="h-4 w-4" /> Télécharger mon dossier PDF
+              <Download className="h-4 w-4" /> Dossier PDF
             </Button>
           </div>
 

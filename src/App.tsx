@@ -9,6 +9,7 @@ import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import StudentForm from "./pages/StudentForm";
 import AdminDashboard from "./pages/AdminDashboard";
+import QRCodePage from "./pages/QRCodePage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/student-form" element={<StudentForm />} />
           <Route path="/admin" element={<AdminDashboard />} />
+          <Route path="/qrcode" element={<QRCodePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
