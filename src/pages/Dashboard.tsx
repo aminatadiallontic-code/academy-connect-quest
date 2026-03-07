@@ -172,13 +172,19 @@ const Dashboard = () => {
 
           {/* Quick actions */}
           <div className="mb-6 sm:mb-8 flex flex-col sm:flex-row gap-3">
+          <div className="mb-6 sm:mb-8 flex flex-col sm:flex-row gap-3">
+            <Link to="/qrcode" className="flex-1">
+              <Button variant="outline" className="w-full gap-2">
+                <QrCode className="h-4 w-4" /> Mon QR Code
+              </Button>
+            </Link>
             <Link to="/admin" className="flex-1">
               <Button variant="outline" className="w-full gap-2">
                 <User className="h-4 w-4" /> Espace administrateur
               </Button>
             </Link>
             <Button variant="outline" className="flex-1 gap-2" onClick={handleExportPdf}>
-              <Download className="h-4 w-4" /> Télécharger mon dossier PDF
+              <Download className="h-4 w-4" /> Dossier PDF
             </Button>
           </div>
 
