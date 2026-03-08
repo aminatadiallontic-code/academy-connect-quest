@@ -31,7 +31,7 @@ const Dashboard = () => {
 
   const notifications = [
     { id: 1, text: "Veuillez compléter vos informations académiques.", time: "Il y a 2h", read: false },
-    { id: 2, text: "Bienvenue sur GestApprenants !", time: "Il y a 1j", read: true },
+    { id: 2, text: "Bienvenue sur Mon Parcours !", time: "Il y a 1j", read: true },
   ];
 
   const handleExportPdf = () => {
