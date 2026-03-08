@@ -222,7 +222,7 @@ const Index = () => {
             <div className="flex h-7 w-7 items-center justify-center rounded-lg gradient-primary">
               <GraduationCap className="h-4 w-4 text-primary-foreground" />
             </div>
-            <span className="font-display text-sm font-bold text-foreground">GestApprenants</span>
+            <span className="font-display text-sm font-bold text-foreground">Mon Parcours</span>
           </div>
           <p className="text-sm text-muted-foreground">
             © 2026 GestApprenants. Tous droits réservés.
