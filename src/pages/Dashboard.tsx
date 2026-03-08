@@ -74,7 +74,7 @@ const Dashboard = () => {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg gradient-primary">
               <GraduationCap className="h-4.5 w-4.5 text-primary-foreground" />
             </div>
-            <span className="font-display text-base sm:text-lg font-bold text-foreground tracking-tight">GestApprenants</span>
+            <span className="font-display text-base sm:text-lg font-bold text-foreground tracking-tight">Mon Parcours</span>
           </Link>
           <div className="flex items-center gap-1 sm:gap-2">
             <Sheet open={notifOpen} onOpenChange={setNotifOpen}>

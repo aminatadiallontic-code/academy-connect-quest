@@ -101,7 +101,7 @@ const Register = () => {
               <div className="flex h-9 w-9 items-center justify-center rounded-xl gradient-primary">
                 <GraduationCap className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="font-display text-lg font-bold text-foreground">GestApprenants</span>
+              <span className="font-display text-lg font-bold text-foreground">Mon Parcours</span>
             </div>
             <Link to="/">
               <Button variant="ghost" size="sm" className="gap-1.5 text-muted-foreground">

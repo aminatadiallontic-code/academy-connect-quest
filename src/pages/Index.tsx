@@ -225,7 +225,7 @@ const Index = () => {
             <span className="font-display text-sm font-bold text-foreground">Mon Parcours</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            © 2026 GestApprenants. Tous droits réservés.
+            © 2026 Mon Parcours. Tous droits réservés.
           </p>
         </div>
       </footer>

@@ -29,7 +29,7 @@ const QRCodePage = () => {
   const handleScan = (data: string) => {
     try {
       const parsed = JSON.parse(data) as ScannedStudent;
-      if (parsed.type === "gestapprenants_student") {
+      if (parsed.type === "monparcours_student") {
         setScannedResult(parsed);
         setScanError(false);
         toast.success(`Apprenant trouvé : ${parsed.name}`);
