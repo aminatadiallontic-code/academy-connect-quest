@@ -122,7 +122,7 @@ const Dashboard = () => {
               <User className="h-7 w-7 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="font-display text-xl sm:text-2xl font-bold text-foreground tracking-tight">Bonjour, Apprenant 👋</h1>
+              <h1 className="font-display text-xl sm:text-2xl font-bold text-foreground tracking-tight">Bonjour, {displayName} 👋</h1>
               <p className="text-sm text-muted-foreground">Voici l'état de votre dossier</p>
             </div>
           </div>
