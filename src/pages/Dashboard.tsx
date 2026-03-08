@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/sheet";
 import { toast } from "sonner";
 import { exportStudentPdf } from "@/lib/exportPdf";
+import { useAuth } from "@/hooks/useAuth";
 
 const statusConfig = {
   incomplete: { label: "Incomplet", color: "bg-destructive/10 text-destructive border border-destructive/20", icon: AlertCircle },
