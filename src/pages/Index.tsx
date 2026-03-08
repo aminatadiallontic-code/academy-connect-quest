@@ -204,7 +204,7 @@ const Index = () => {
               Prêt à transformer votre gestion ?
             </h2>
             <p className="mx-auto max-w-md text-primary-foreground/65 mb-8">
-              Rejoignez les établissements qui font confiance à GestApprenants pour gérer leurs dossiers étudiants.
+              Rejoignez les établissements qui font confiance à Mon Parcours pour gérer leurs dossiers étudiants.
             </p>
             <Link to="/register">
               <Button size="lg" className="gradient-accent text-accent-foreground btn-shine gap-2 px-10 h-12 shadow-lg">
