@@ -67,15 +67,6 @@ const Index = () => {
 
         <div className="container relative mx-auto px-4 text-center">
           {/* Badge */}
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="mx-auto mb-6 inline-flex items-center gap-2 rounded-full border border-primary-foreground/15 bg-primary-foreground/8 px-4 py-1.5 text-sm text-primary-foreground/80 backdrop-blur-sm"
-          >
-            <Sparkles className="h-3.5 w-3.5 text-accent" />
-            Plateforme de gestion nouvelle génération
-          </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
